@@ -19,6 +19,9 @@ Add the hook to your `.pre-commit-config.yaml`:
           - uv==0.9.18
 ```
 
+## Story
+The original inline version of this hook was created with the help of https://til.unessa.net/git/pre-commit-hook/
+
 
 ## Contributing
 This repo solves a very specific need, and I can't think of what could be added or improved. If you can think of any, please feel free to open an issue or a pull request.
