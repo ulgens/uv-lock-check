@@ -1,0 +1,37 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: check-case-conflict
+      - id: check-merge-conflict
+      - id: check-yaml
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+
+    # TODO:
+    #   Consider using with yamllint
+    #   https://github.com/jumanjihouse/pre-commit-hook-yamlfmt?tab=readme-ov-file#combine-with-yamllint
+  - repo: https://github.com/jumanjihouse/pre-commit-hook-yamlfmt
+    rev: 0.2.3
+    hooks:
+      - id: yamlfmt
+        # Matching config for `prek sample-config` output
+        args: [--mapping, '2', --sequence, '4', --offset, '2']
+
+  - repo: https://github.com/tox-dev/pyproject-fmt
+    rev: v2.11.1
+    hooks:
+      - id: pyproject-fmt
+        args: [--indent, '4', --keep-full-version, --max-supported-python, '3.14']
+
+  - repo: https://github.com/ulgens/uv-lock-check
+    rev: b071148c33ece7209a34d03a16b7eaf23a709d29
+    hooks:
+      - id: uv-lock-check
+        additional_dependencies:
+          - uv==0.9.18
+
+  - repo: https://github.com/codespell-project/codespell
+    rev: v2.4.1
+    hooks:
+      - id: codespell
