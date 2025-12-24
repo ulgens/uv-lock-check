@@ -26,7 +26,7 @@ repos:
         args: [--indent, '4', --keep-full-version, --max-supported-python, '3.14']
 
   - repo: https://github.com/ulgens/uv-lock-check
-    rev: b071148c33ece7209a34d03a16b7eaf23a709d29
+    rev: v0.1.0
     hooks:
       - id: uv-lock-check
         additional_dependencies:
