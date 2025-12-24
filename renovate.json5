@@ -1,0 +1,6 @@
+{
+  "extends": [
+    // https://github.com/ulgens/renovate-presets
+    "github>ulgens/renovate-presets:all.json5",
+  ],
+}
