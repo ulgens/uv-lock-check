@@ -10,7 +10,7 @@ Add the hook to your `.pre-commit-config.yaml`:
     rev: ""  # Update to latest tag with `prek (pre-commit) autoupdate`
     hooks:
       - id: uv-lock-check
-        # additional_dependencies definition is optional, but I recommend you to match uv version 
+        # additional_dependencies definition is optional, but I recommend you to match uv version
         # to your project's uv version, to ensure consistent results.
         additional_dependencies:
           - uv==0.9.18
