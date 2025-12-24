@@ -1,3 +1,4 @@
+---
 name: Prek checks
 on: [push, pull_request]
 
