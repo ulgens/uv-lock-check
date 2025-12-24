@@ -1,6 +1,6 @@
 -   id: uv-lock-check
     name: uv lock --check
     entry: uv lock --check
-    language: system
+    language: python
     files: '^(pyproject.toml|uv.lock)$'
     pass_filenames: false

@@ -1,0 +1,10 @@
+[project]
+name = "uv-lock-check"
+version = "0.1.0"
+description = "A pre-commit hook to validate pyproject.toml and uv.lock files are in sync"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    # Earliest version with Python 3.14 (current latest minor) support
+    "uv>=0.9.0",
+]
