@@ -20,6 +20,9 @@ Add the hook to your `.pre-commit-config.yaml`:
 ## Contributing
 This repo solves a very specific need, and I can't think of what can be added/improved but if you think it can be improved, please feel free to open issues or pull requests.
 
+## Similar Projects
+- https://github.com/hbelmiro/uv-lock-check - A GitHub Action that validates if your uv.lock file and optionally requirements.txt files are in sync with your pyproject.toml file.
+
 ## Professional Support 📝
 
 These repo is maintained as part of my ongoing work with CI tools. If your organization needs help with
