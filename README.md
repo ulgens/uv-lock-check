@@ -10,7 +10,7 @@ Add the hook to your `.pre-commit-config.yaml`:
 
 ```yaml
   - repo: https://github.com/ulgens/uv-lock-check
-    rev: ""  # Update to the latest tag with `prek (pre-commit) autoupdate`
+    rev: ""  # Update to the latest tag, using `prek (pre-commit) autoupdate`
     hooks:
       - id: uv-lock-check
         # additional_dependencies definition is optional, but I recommend to match the uv version
