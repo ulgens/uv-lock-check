@@ -7,10 +7,10 @@ Add the hook to your `.pre-commit-config.yaml`:
 
 ```yaml
   - repo: https://github.com/ulgens/uv-lock-check
-    rev: ""  # Update to latest tag with `prek (pre-commit) autoupdate`
+    rev: ""  # Update to the latest tag with `prek (pre-commit) autoupdate`
     hooks:
       - id: uv-lock-check
-        # additional_dependencies definition is optional, but I recommend you to match uv version
+        # additional_dependencies definition is optional, but I recommend to match the uv version
         # to your project's uv version, to ensure consistent results.
         additional_dependencies:
           - uv==0.9.18
@@ -18,14 +18,14 @@ Add the hook to your `.pre-commit-config.yaml`:
 
 
 ## Contributing
-This repo solves a very specific need, and I can't think of what can be added/improved but if you think it can be improved, please feel free to open issues or pull requests.
+This repo solves a very specific need, and I can't think of what could be added or improved. If you can think of any, please feel free to open an issue or a pull request.
 
 ## Similar Projects
 - https://github.com/hbelmiro/uv-lock-check - A GitHub Action that validates if your uv.lock file and optionally requirements.txt files are in sync with your pyproject.toml file.
 
 ## Professional Support 📝
 
-These repo is maintained as part of my ongoing work with CI tools. If your organization needs help with
+This repo is maintained as part of my ongoing work with CI tools. If your organization needs help with
 
 - CI/CD pipeline design/improvements
 - Dependency management automation
