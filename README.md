@@ -14,7 +14,7 @@ Add the hook to your `.pre-commit-config.yaml`:
       - id: uv-lock-check
         language: python
         additional_dependencies:
-          - uv==0.9.18
+          - uv==0.9.26
 ```
 
 `additional_dependencies` definition is optional, but I recommend to match the uv version to your project's uv version, to ensure consistent results. `language: python` is necessary only if you want to make use of `additional_dependencies` and Renovate to update the dependency automatically: https://docs.renovatebot.com/modules/manager/pre-commit/#additional-dependencies
