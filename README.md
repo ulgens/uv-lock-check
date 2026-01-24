@@ -1,6 +1,9 @@
 ![Python Version from PEP 621 TOML](https://img.shields.io/python/required-version-toml?tomlFilePath=https%3A%2F%2Fraw.githubusercontent.com%2Fulgens%2Fuv-lock-check%2Fmain%2Fpyproject.toml)
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/ulgens/uv-lock-check/lint.yml?label=lint)
 
+> [!IMPORTANT]
+> After realizing [astral-sh/uv-pre-commit-hook](https://github.com/astral-sh/uv-pre-commit) already provides the same functionality, I have decided to deprecate this repository. Please use the mentioned tool instead.
+
 # uv-lock-check
 A pre-commit hook to validate pyproject.toml and uv.lock files are in sync
 
