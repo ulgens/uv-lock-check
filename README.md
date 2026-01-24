@@ -5,7 +5,6 @@
 A pre-commit hook to validate pyproject.toml and uv.lock files are in sync
 
 ## Usage
-
 Add the hook to your `.pre-commit-config.yaml`:
 
 ```yaml
@@ -20,10 +19,8 @@ Add the hook to your `.pre-commit-config.yaml`:
 
 `additional_dependencies` definition is optional, but I recommend to match the uv version to your project's uv version, to ensure consistent results. `language: python` is necessary only if you want to make use of `additional_dependencies` and Renovate to update the dependency automatically: https://docs.renovatebot.com/modules/manager/pre-commit/#additional-dependencies
 
-
 ## Story
 [The original inline version](https://github.com/ulgens/django-blasphemy/pull/690) of this hook was created with the help of https://til.unessa.net/git/pre-commit-hook/
-
 
 ## Contributing
 This repo solves a very specific need, and I can't think of what could be added or improved. If you can think of any, please feel free to open an issue or a pull request.
@@ -32,7 +29,6 @@ This repo solves a very specific need, and I can't think of what could be added 
 - https://github.com/hbelmiro/uv-lock-check - A GitHub Action that validates if your uv.lock file and optionally requirements.txt files are in sync with your pyproject.toml file.
 
 ## Professional Support 📝
-
 This repo is maintained as part of my ongoing work with CI tools. If your organization needs help with
 
 - CI/CD pipeline design/improvements
