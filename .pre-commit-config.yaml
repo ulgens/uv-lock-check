@@ -29,6 +29,7 @@ repos:
     rev: v0.1.0
     hooks:
       - id: uv-lock-check
+        language: python
         additional_dependencies:
           - uv==0.9.18
 
