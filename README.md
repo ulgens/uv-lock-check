@@ -22,7 +22,7 @@ Add the hook to your `.pre-commit-config.yaml`:
 
 
 ## Story
-The original inline version of this hook was created with the help of https://til.unessa.net/git/pre-commit-hook/
+[The original inline version](https://github.com/ulgens/django-blasphemy/pull/690) of this hook was created with the help of https://til.unessa.net/git/pre-commit-hook/
 
 
 ## Contributing
